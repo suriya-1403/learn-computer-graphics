@@ -1,7 +1,7 @@
 # learn-computer-graphics
 > Wrote the Code in C with the help of graphics.h headerfile
 
-## Explanation of structure of code:
+## Explanation of structure of the code:
 First and formost step is to include `graphics.h` header file which provide us access to call predefined functions like: `line`, `rectangle`, `arc`, `ellipse`, `polygon`, `circle`, etc., <br /> <br />
 Second step to initialize the graphics drivers in our computer using `initgraph` function from the `graphics.h` header file. <br />
 ```CPP
@@ -23,3 +23,14 @@ It initializes the graphics system by loading the passed graphics driver then ch
   <dt>driverDirectoryPath: </dt>
   <dd>It specifies the directory path where graphics driver files (BGI files) are located. If directory path is not provided, then it will search for driver files in current working directory directory.</dd>
 </dl>
+After these two steps we are free to use any predefined function from `graphics.h` to create a amazing graphics.
+
+## Predefined Function
+### *A Stright Line*
+If we want to draw a straight line we need to call `line()` function.
+#### Syntax:
+```CPP
+line(x1,y1 ,x2,y2);
+```
+Here Elements in the parament are the x and y coordinates of the first point and second point. This `line()` function will draw a line joining these two points. 
+
