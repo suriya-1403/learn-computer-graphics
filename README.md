@@ -18,8 +18,8 @@ It initializes the graphics system by loading the passed graphics driver then ch
   <dd>It is a pointer to an integer specifying the graphics driver to be used. It tells the compiler that what graphics driver to use or to automatically detect the drive. In all our programs we will use "DETECT" macro of "graphics.h" library that instruct compiler for auto detection of graphics driver.</dd>
 
   <dt>graphicsMode: </dt>
-  <dd>It is a pointer to an integer that specifies the graphics mode to be used. If `*gd` is set to `DETECT`, then initgraph sets `*gm` to the highest resolution available for the detected driver.</dd>
+  <dd>It is a pointer to an integer that specifies the graphics mode to be used. If "*gd" is set to "DETECT", then initgraph sets "*gm" to the highest resolution available for the detected driver.</dd>
   
   <dt>driverDirectoryPath: </dt>
-  <dd>It specifies the directory path where graphics driver files (`BGI` files) are located. If directory path is not provided, then it will search for driver files in current working directory directory.</dd>
+  <dd>It specifies the directory path where graphics driver files (BGI files) are located. If directory path is not provided, then it will search for driver files in current working directory directory.</dd>
 </dl>
